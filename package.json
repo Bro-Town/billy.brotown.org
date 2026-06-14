@@ -1,0 +1,9 @@
+{
+  "name": "billy-brotown",
+  "version": "1.0.0",
+  "description": "billy.brotown.org",
+  "scripts": {
+    "dev": "wrangler pages dev .",
+    "deploy": "wrangler deploy"
+  }
+}

@@ -20,7 +20,7 @@ jobs:
           KV_NAMESPACE_ID: ${{ secrets.KV_NAMESPACE_ID }}
         run: |
           cat > wrangler.toml <<EOF
-          name = "billy-brotown"
+          name = "billy-bro-town"
           compatibility_date = "2024-01-01"
           pages_build_output_dir = "."
 

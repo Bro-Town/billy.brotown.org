@@ -4,6 +4,21 @@
     display: inline-block;
 }
 
+body {
+    background: #fff;
+    position: relative;
+}
+
+#cursor-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    pointer-events: none;
+}
+
 .email span {
 	display: none;
 }

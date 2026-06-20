@@ -4,6 +4,6 @@
   "description": "billy.brotown.org",
   "scripts": {
     "dev": "wrangler pages dev .",
-    "deploy": "wrangler deploy"
+    "deploy": "wrangler pages deploy"
   }
 }
